@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@700&display=swap');
+
+*,
+*::before,
+*::after {
+    /* padding: 0;
+    margin: 0; */
+    box-sizing: border-box;
+}
+
+:root {
+    --fntSml: 0.8rem;
+    --fntMdm: 1.2rem;
+    --fntLg: 2rem;
+    --fntLato: 'Lato', sans-serif;
+    --fntPlayFair: 'Playfair Display', serif;
+    --bdyClr: #FDFBF9;
+    --hvrClr: #F5EFEB;
+    --brdrClr: rgba(0, 0, 0, 0.2);
+}
+
+header {
+    width: 100%;
+    background-color: var(--bdyClr);   
+}
+
+.dsk-view {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .dsk-view {
+        display: block;
+    }
+}
